@@ -1,0 +1,3 @@
+Arch=X64
+BuildDir=/Users/alexanderzjs/Desktop/OpenCore-LiveUSB/UDK/Build/OpenCorePkg/DEBUG_XCODE5
+PlatformGuid=C46F121D-ABC6-42A3-A241-91B09224C357
