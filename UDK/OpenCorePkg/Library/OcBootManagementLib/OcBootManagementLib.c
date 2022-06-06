@@ -223,12 +223,17 @@ OcRunBootPicker (
     Context->HideAuxiliary = FALSE;
   }
 
+  /* alexanderzjs -- start bypassing default bootentry scanning */
+  Context->PickerCommand = OcPickerShowPicker;
+  /* alexanderzjs -- end bypassing default bootentry scanning */
   while (TRUE) {
     //
     // Turbo-boost scanning when bypassing picker.
     //
     if (Context->PickerCommand == OcPickerDefault) {
-      BootContext = OcScanForDefaultBootEntry (Context);
+      /* alexanderzjs -- start commenting out unused code */
+      // BootContext = OcScanForDefaultBootEntry (Context);
+      /* alexanderzjs -- end commenting out unused code */
     } else {
       ASSERT (
         Context->PickerCommand == OcPickerShowPicker
