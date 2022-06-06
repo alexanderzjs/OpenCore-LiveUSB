@@ -564,6 +564,7 @@ typedef struct {
   // Whether we should pass the actual device path (if possible).
   //
   BOOLEAN      RealPath;
+  CHAR8        *DevicePrefix;
 } OC_PICKER_ENTRY;
 
 /**
