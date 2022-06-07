@@ -22,9 +22,9 @@
   Current supported interface protocol revision.
   It is changed every time the contract changes.
 
-  WARNING: This protocol currently undergoes design process.
+  WARNING: This protocol is currently undergoing active design.
 **/
-#define OC_INTERFACE_REVISION  6
+#define OC_INTERFACE_REVISION  7
 
 /**
   The GUID of the OC_INTERFACE_PROTOCOL.
@@ -49,7 +49,7 @@ typedef struct OC_INTERFACE_PROTOCOL_ OC_INTERFACE_PROTOCOL;
 **/
 typedef
 EFI_STATUS
-(EFIAPI *OC_POPULATE_CONTEXT) (
+(EFIAPI *OC_POPULATE_CONTEXT)(
   IN     OC_INTERFACE_PROTOCOL  *This,
   IN     OC_STORAGE_CONTEXT     *Storage,
   IN OUT OC_PICKER_CONTEXT      *Picker
@@ -59,13 +59,13 @@ EFI_STATUS
   The structure exposed by the OC_INTERFACE_PROTOCOL.
 **/
 struct OC_INTERFACE_PROTOCOL_ {
-  UINT32                  Revision;        ///< The revision of the installed protocol.
-  OC_POPULATE_CONTEXT     PopulateContext; ///< A pointer to the PopulateContext function.
+  UINT32                 Revision;         ///< The revision of the installed protocol.
+  OC_POPULATE_CONTEXT    PopulateContext;  ///< A pointer to the PopulateContext function.
 };
 
 /**
   A global variable storing the GUID of the OC_INTERFACE_PROTOCOL.
 **/
-extern EFI_GUID gOcInterfaceProtocolGuid;
+extern EFI_GUID  gOcInterfaceProtocolGuid;
 
 #endif // OC_INTERFACE_PROTOCOL_H

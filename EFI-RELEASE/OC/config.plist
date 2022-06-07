@@ -13,230 +13,11 @@
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>My custom DSDT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>DSDT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>My custom SSDT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-1.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-ALS0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-AWAC-DISABLE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-BRG0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EHCx-DISABLE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-IMEI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-RTC0-RANGE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-RTC0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-UNC.aml</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Delete</key>
-		<array>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Delete CpuPm</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Delete Cpu0Ist</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-		</array>
+		<array/>
 		<key>Patch</key>
-		<array>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>Replace one byte sequence with another</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>ESIzRA==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>RDMiEQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string>\_SB.PCI0.LPCB.HPET</string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>HPET _CRS to XCRS</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>X0NSUw==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WENSUw==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -256,51 +37,9 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-			<dict>
-				<key>Address</key>
-				<integer>4275159040</integer>
-				<key>Comment</key>
-				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
-				<key>Enabled</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Address</key>
-				<integer>4278190080</integer>
-				<key>Comment</key>
-				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
-				<key>Enabled</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>Patch</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Comment</key>
-				<string>macOS to hacOS</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>bWFjT1M=</data>
-				<key>Identifier</key>
-				<string>Apple</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>Replace</key>
-				<data>aGFjT1M=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -342,7 +81,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -434,204 +173,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
-				<key>Comment</key>
-				<string>Intel Ethernet LAN</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>13.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>Legacy_USB3.kext</string>
-				<key>Comment</key>
-				<string>XHC ports configuration</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AppleMCEReporterDisabler.kext</string>
-				<key>Comment</key>
-				<string>AppleMCEReporter disabler</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Controller</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Keyboard</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Mouse</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Trackpad</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooInput</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>15.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>12.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string>19.9.9</string>
-				<key>MinKernel</key>
-				<string>12.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -720,276 +261,6 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string>_AcpiOsVprintf</string>
-				<key>Comment</key>
-				<string>Disable ACPI logging</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleACPIPlatform</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>18.5.0</string>
-				<key>MinKernel</key>
-				<string>18.5.0</string>
-				<key>Replace</key>
-				<data>ww==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
-				<key>Comment</key>
-				<string>Broadcom BCM57785 patch</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>6AAA//9miYMABQAA</data>
-				<key>Identifier</key>
-				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>/wAA////////////</data>
-				<key>MaxKernel</key>
-				<string>19.9.9</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>uLQWAABmiYMABQAA</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_panic</string>
-				<key>Comment</key>
-				<string>Send panic string to serial port</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2dN/r/g==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_kernel_debug_string_early</string>
-				<key>Comment</key>
-				<string>Send early prints to serial port</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2dN/D</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_disable_serial_output</string>
-				<key>Comment</key>
-				<string>Enable early serial output on RELEASE kernel</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>AA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_vstart</string>
-				<key>Comment</key>
-				<string>Print K and dead loop</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>sUtmuv0D7KggdPtmuvgDiMjusQpmuv0D7KggdPtmuvgDiMju6/4=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_vstart</string>
-				<key>Comment</key>
-				<string>Early reboot</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>McCwBrr5DAAA7uv+</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_early_random</string>
-				<key>Comment</key>
-				<string>SurPlus v1 - PART 1 of 2 - Patch read_erandom (inlined in _early_random)</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AHQjSIs=</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>800</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.1.0</string>
-				<key>MinKernel</key>
-				<string>20.4.0</string>
-				<key>Replace</key>
-				<data>AOsjSIs=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_register_and_init_prng</string>
-				<key>Comment</key>
-				<string>SurPlus v1 - PART 2 of 2 - Patch register_and_init_prng</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>ukgBAAAx9g==</data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>256</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>21.1.0</string>
-				<key>MinKernel</key>
-				<string>20.4.0</string>
-				<key>Replace</key>
-				<data>ukgBAADrBQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1061,7 +332,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1090,17 +361,17 @@
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483714</integer>
+			<integer>2151678018</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>91</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1118,79 +389,7 @@
 				<key>Name</key>
 				<string>Windows 10 Setup</string>
 				<key>Path</key>
-				<string>HD(5,GPT,F98442A8-A369-4BF0-BE54-E5AFDEFFA702,0x4FC6000,0xC00000)/\EFI\BOOT\BOOTX64.EFI</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Windows 11 Setup</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Windows11:ExtWindows11</string>
-				<key>Name</key>
-				<string>Windows 11 Setup</string>
-				<key>Path</key>
-				<string>HD(6,GPT,00EA184E-E885-43CF-8B48-46D9969C54D3,0x5BC6000,0xC00000)/\EFI\BOOT\BOOTX64.EFI</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Install macOS Mojave</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>OSX:ExtApple</string>
-				<key>Name</key>
-				<string>Install macOS Mojave</string>
-				<key>Path</key>
-				<string>HD(2,GPT,1927DEFE-19D4-44E1-A7C0-32A682239B56,0x64022,0xD09DC0)/\System\Library\CoreServices\boot.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Install macOS Monterey</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>MacOS:ExtApple</string>
-				<key>Name</key>
-				<string>Install macOS Monterey</string>
-				<key>Path</key>
-				<string>HD(3,GPT,8A5E73A3-A04D-4B52-A7CE-283BAE9A6B6B,0xDADDE8,0x1A13B80)/\System\Library\CoreServices\boot.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>iso-scan/filename=/ubuntu/jammy-desktop-amd64.iso file=/cdrom/preseed/ubuntu.seed quiet splash=silent initrd=/ubuntu/initrd</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Ubuntu 20.04 LTS</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Ubuntu:Linux</string>
-				<key>Name</key>
-				<string>Ubuntu 20.04 LTS</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/\ubuntu\vmlinuz</string>
+				<string>HD(2,GPT,949814AE-B70C-4A83-A50C-7863F854E58C,0x64040,0x1443E21)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1208,126 +407,14 @@
 				<key>Name</key>
 				<string>Fedora Workstation 35</string>
 				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/fedora/vmlinuz</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>install=hd:/opensuse/openSUSE-Leap-15.3-3-DVD-x86_64-Media.iso splash=silent initrd=/opensuse/initrd</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>OpenSUSE Leap 15.3.3</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>OpenSUSE:Linux</string>
-				<key>Name</key>
-				<string>OpenSUSE Leap 15.3.3</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/opensuse/linux</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>img_dev=/dev/disk/by-label/LINUX img_loop=archlinux/archlinux-2022.05.01-x86_64.iso  initrd=/archlinux/initramfs-linux.img /archlinux/intel-ucode.img</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Arch Linux</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Arch:Linux</string>
-				<key>Name</key>
-				<string>Arch Linux</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/archlinux/vmlinuz-linux</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>root=/dev/ram0 init=/linuxrc dokeymap looptype=squashfs loop=/image.squashfs cdroot isoboot=/gentoo/install-amd64-minimal-20220508T170538Z.iso initrd=/gentoo/gentoo.igz</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Gentoo Linux</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Gentoo:Linux</string>
-				<key>Name</key>
-				<string>Gentoo Linux</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/gentoo/gentoo</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>findiso=/debian/debian-11.3.0-amd64-DVD-1.iso splash=silent initrd=/debian/initrd.gz</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Debian 11.3.0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Debian:Linux</string>
-				<key>Name</key>
-				<string>Debian 11.3.0</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/debian/vmlinuz</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>inst.repo=hd:LABEL=LINUX:/redhat/rhel-baseos-9.0-x86_64-dvd.iso quiet initrd=/redhat/initrd.img</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>RHEL 9.0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>RedHat:Linux</string>
-				<key>Name</key>
-				<string>RHEL 9.0</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/redhat/vmlinuz</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>splash=silent quiet nomodeset install=hd:/suse/SLE-15-SP4-Full-x86_64-PublicRC-202204-Media1.iso initrd=/suse/initrd</string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>SLES 15 SP4</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>SUSE:Linux</string>
-				<key>Name</key>
-				<string>SLES 15 SP4</string>
-				<key>Path</key>
-				<string>HD(8,GPT,48ACC8D0-F148-4CC7-B788-C8D0F2ABB422,0x6E2F67E0,0x63FFFFF)/suse/linux</string>
+				<string>HD(3,GPT,34BE224F-A2F8-4824-A016-4B9DED2FBF57,0x14A8000,0x92C000)/\fedora\vmlinuz</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
 		</array>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<false/>
 			<key>AllowSetDefault</key>
-			<false/>
-			<key>AllowToggleSip</key>
 			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
@@ -1404,7 +491,7 @@
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
-				<data>0x46</data>
+				<data>true</data>
 				<key>boot-args</key>
 				<string>-v keepsyms=1</string>
 				<key>csr-active-config</key>
@@ -1621,7 +708,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>CrScreenshotDxe.efi</string>
 			</dict>
@@ -1715,7 +802,7 @@
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
-			<false/>
+			<true/>
 			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
