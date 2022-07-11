@@ -583,6 +583,7 @@ typedef struct {
   // Audio base type for system action. Boot Entry Protocol only. Optional.
   //
   CHAR8                    *AudioBaseType;
+  CHAR8                    *DevicePrefix;
 } OC_PICKER_ENTRY;
 
 /**
