@@ -2,17 +2,18 @@
 OpenCorePkg fork with the ability to make LiveUSB installer. This installer doesn't need you to specify the Device Path prefixing (i.e., "PciRoot..."), you just need to add "HD(1,GPT,UUID)" (currently only "HD" is supported, other types can be added upon requests) before your bootloader file. Refer to the example config.plist in the EFI/OC/.
 
 # Environment
-0. macOS: the one supports Xcode 9.4 (macOS needs to remove -ftrivial-auto-var-init=pattern)
-1. Xcode: Version 9.4 (9F1027a)
+## MacOS
+1. macOS: the one supports Xcode 9.4 (macOS needs to remove -ftrivial-auto-var-init=pattern)
+2. Xcode: Version 9.4 (9F1027a)
 LLVM: Version 9.1.0 (clang-902.0.39.2), Target x86_64-apple-darwin18.7.0
-2. nasm: version 2.15.05 (or latest version should work)
-3. iasl: Intel ACPI Component Architecture ASL+ Optimizing Compiler/Disassembler version 20200528
-4. mtoc: Latest should work
+3. nasm: version 2.15.05 (or latest version should work)
+4. iasl: Intel ACPI Component Architecture ASL+ Optimizing Compiler/Disassembler version 20200528
+5. mtoc: Latest should work
 
-0. Ubuntu: Ubuntu 18.04 (Ubuntu can play with -ftrivial-auto-var-init=pattern)
-1. GCC 7.5.0
-2. sudo apt install build-essential uuid-dev nasm
-
+## Ubuntu
+1. Ubuntu: Ubuntu 18.04 (Ubuntu can play with -ftrivial-auto-var-init=pattern)
+2. GCC 7.5.0
+3. sudo apt install build-essential uuid-dev nasm
 
 # Compilation
 1. Clone and change directory to UDK folder
